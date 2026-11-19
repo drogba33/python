@@ -1,4 +1,6 @@
-#import math
-#r=float(input("rayonn : "))
-#res=(float(math.pi * r**2))
-#print(res)
+n=int(input("le nombre :  "))
+if n<0 :
+    n=-n
+    print(n)
+else:
+    print(n)
